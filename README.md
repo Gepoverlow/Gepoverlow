@@ -5,40 +5,48 @@
 </a>
 
 ```ts
-
 class About implements Introduction {
 
-public function getCurrentStatus(): string {
+    private _isPassionate : boolean = true;
+    private _isProblemSolver : boolean = true;
+    private _isMotivated : boolean = true;
+    
+    public getCurrentStatus(): string {
+    
+        return 'Junior full stack on the making @ BeCode Antwerpen';
+    
+    }
 
-    return 'Junior full stack on the making @ BeCode Antwerpen';
+    public getCurrentObjective(): string {
 
-  }
-  
-public function getUsedLanguages(): array {
+        return 'Land an internship in a company and keep growing & learning!'
 
-    return ['HTML5', 'CSS', 'JavaScript', 'TypeScript', 'PHP', 'Java'];
+    }
 
-  }
-  
-public function getUsedEfficienyTools(): array {
-
-    return ['SASS', 'React', 'Angular', 'Express', 'Spring'];
-
-  }
-  
-public function getOtherNoteworthyTools(): array {
-
-    return ['Git', 'postgreSQL', 'mySQL'];
-  
-  }  
-  
-public function getCurrentWorkingOn(): string {
-
-    return 'Strengthening my back-end skills with Java Spring Boot!';
-  
-  } 
-
+    public getCurrentWorkingOn(): string {
+    
+        return 'Strengthening my back-end skills with Java Spring Boot!';
+      
+    } 
+      
+    public getUsedLanguages(): Array<string> {
+    
+        return ['HTML5', 'CSS', 'JavaScript', 'TypeScript', 'PHP', 'Java'];
+    
+    }
+      
+    public getUsedEfficienyTools(): Array<string> {
+    
+        return ['SASS', 'React', 'Angular', 'Express', 'Spring'];
+    
+    }
+      
+    public getOtherNoteworthyTools(): Array<string> {
+    
+        return ['Git', 'postgreSQL', 'mySQL'];
+      
+    }  
+    
 }
-
 ```
 
