@@ -47,6 +47,8 @@ class About implements Introduction {
       
     }  
     
+    //TODO: Add getters and setters...
+    
 }
 ```
 
