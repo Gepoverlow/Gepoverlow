@@ -18,7 +18,7 @@ public function getUsedLanguages(): array {
   
 public function getUsedEfficienyTools(): array {
 
-    return ['SASS', React', 'Angular', 'Express', 'Spring'];
+    return ['SASS', 'React', 'Angular', 'Express', 'Spring'];
 
   }
   
