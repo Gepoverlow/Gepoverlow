@@ -1,16 +1,40 @@
-### Hi there 👋
+### Hello! 👋, I'm Lucas
 
-<!--
-**Gepoverlow/Gepoverlow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```ts
 
-Here are some ideas to get you started:
+class About implements Introduction {
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public function getCurrentStatus(): string {
+
+    return 'Junior full stack on the making @ BeCode Antwerpen';
+
+  }
+  
+public function getUsedLanguages(): array {
+
+    return ['HTML5', 'CSS', 'JavaScript', 'TypeScript', 'PHP', 'Java'];
+
+  }
+  
+public function getUsedEfficienyTools(): array {
+
+    return ['SASS', React', 'Angular', 'Express', 'Spring'];
+
+  }
+  
+public function getOtherNoteworthyTools(): array {
+
+    return ['Git', 'postgreSQL', 'mySQL'];
+  
+  }  
+  
+public function getCurrentWorkingOn(): string {
+
+    return 'Strengthening my back-end skills with Java Spring Boot!';
+  
+  } 
+
+}
+
+```
+
