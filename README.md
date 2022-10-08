@@ -25,13 +25,13 @@ class About implements Introduction {
 
     public getCurrentWorkingOn(): string {
     
-        return 'Strengthening my back-end skills with Java Spring Boot!';
+        return 'Strengthening my full stack skills with Angular + Spring Boot!';
       
     } 
       
     public getUsedLanguages(): Array<string> {
     
-        return ['HTML5', 'CSS', 'JavaScript', 'TypeScript', 'PHP', 'Java'];
+        return ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'PHP', 'Java'];
     
     }
       
