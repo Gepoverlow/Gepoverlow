@@ -13,13 +13,13 @@ class About implements Introduction {
     
     public getCurrentStatus(): string {
     
-        return 'Junior full stack on the making @ BeCode Antwerpen';
+        return 'Going through an internship at The Beehive as full stack developer';
     
     }
 
     public getCurrentObjective(): string {
 
-        return 'Land an internship in a company and keep growing & learning!'
+        return 'Land a place in a company where I could keep growing & learning!'
 
     }
 
