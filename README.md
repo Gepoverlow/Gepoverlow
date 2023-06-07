@@ -13,19 +13,19 @@ class About implements Introduction {
     
     public getCurrentStatus(): string {
     
-        return 'Going through an internship at The Beehive as full stack developer';
+        return 'Strengthening my Test Automation skills';
     
     }
 
     public getCurrentObjective(): string {
 
-        return 'Land a place in a company where I could keep growing & learning!'
+        return 'Never stop learning!'
 
     }
 
     public getCurrentWorkingOn(): string {
     
-        return 'Strengthening my full stack skills with Angular + Spring Boot!';
+        return 'Extending my Cypress knowledge!';
       
     } 
       
@@ -37,7 +37,7 @@ class About implements Introduction {
       
     public getUsedEfficienyTools(): Array<string> {
     
-        return ['SASS', 'React', 'Angular', 'Express', 'Spring'];
+        return ['SASS', 'React', 'Angular', 'Express', 'Spring', 'Cypress', 'Selenium'];
     
     }
       
